@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+h1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
